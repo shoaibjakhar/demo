@@ -40,6 +40,8 @@ if($user) {
 
 
 return view('session/create.view.php', [
-    'errors' => "No matching account found for that email address and password."
+    'errors' => [
+        'email' => "No matching account found for that email address and password."
+    ]
 ]);
 exit();
