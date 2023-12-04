@@ -1,0 +1,26 @@
+{
+    "name": "hp/demo",
+    "authors": [
+        {
+            "name": "Shoaib Akbar",
+            "email": "shoaibjakhar11@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.34"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\" : "Core/",
+            "Http\\" : "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.26"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
